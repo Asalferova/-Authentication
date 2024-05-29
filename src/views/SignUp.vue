@@ -130,7 +130,7 @@ const signInWithGoogle = async () => {
         />
       </label>
       <the-loader v-if="authStore.loader"></the-loader>
-      <error-message v-if="authStore.error" style="width: 100%">{{
+      <error-message v-if="authStore.error">{{
         authStore.error
       }}</error-message>
       <button v-if="!authStore.loader" type="submit" class="form__submit-button">

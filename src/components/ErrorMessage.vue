@@ -6,7 +6,7 @@
 
 <style>
 .error-message {
-  width: 95%;
+  width: 100%;
   color: #dc3545;
   font-size: 14px;
   margin: 10px 0;
